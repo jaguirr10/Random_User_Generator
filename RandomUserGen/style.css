@@ -1,0 +1,123 @@
+
+
+@import url(https://fonts.googleapis.com/css?family=Raleway|Varela+Round|Coda);
+
+body {
+  background: #2980B9;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #FFFFFF, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  padding: 2.23em;
+}
+
+.title {
+  color: #2c3e50;
+  font-family: "Coda", sans-serif;
+  text-align: center;
+}
+.user-profile {
+  margin: auto;
+	width: 29em; 
+  height: 11em;
+  border-radius: .3em;
+  
+}
+
+.user-profile{
+background: #BA8B02;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #181818, #BA8B02);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #181818, #BA8B02); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+	
+}
+
+
+
+.user-profile {
+-webkit-box-shadow: 0px 7px 29px 2px rgba(0,0,0,0.54); 
+box-shadow: 0px 7px 45px 2px rgba(0,0,0,0.54);
+}
+
+
+.user-profile  #fullname {
+  margin: auto;
+  margin-top: -4.40em;
+  margin-left: 5.80em;
+  color: #16a085;
+  font-size: 1.53em;
+  font-family: "Coda", sans-serif;
+  font-weight: bold;
+}
+
+#username {
+  margin: auto;
+  display: inline-block;
+  margin-left: 10.43em;
+  color: #3498db;
+  font-size: .87em;
+  font-family: "varela round", sans-serif;
+}
+
+.user-profile > .description {
+  margin: auto;
+  margin-top: 1.35em;
+  margin-right: 3em;
+  width: 18em;
+  color: #7f8c8d;
+  font-size: .87em;
+  font-family: "varela round", sans-serif;
+}
+
+.user-profile > img#avatar {
+	padding: .7em;
+  margin-left: .3em;
+  margin-top: .3em;
+  height: 6.23em;
+  width: 6.23em;
+  border-radius: 18em;
+}
+
+
+.footer {
+	margin: 2em auto;
+	height: 3.70em;
+  background: #16a085;
+  text-align: center;
+  border-radius: 0 0 .3em .3em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background 0.1s;
+}
+
+.footer{
+	
+	-webkit-box-shadow: 0px 7px 29px 2px rgba(0,0,0,0.54); 
+box-shadow: 0px 6px 24px 0px rgba(0,0,0,0.54);
+}
+
+
+button {
+  color: white;
+  font-family: "Coda", sans-serif;
+  text-align: center;
+  font-size: 20px;
+  background: none;
+  outline: none;
+  border: 0;
+}
+
+.footer:hover {
+  background: #1abc9c;
+}
+
+@media screen and (max-width: 500px) {
+    .user-profile{
+		margin-left: -25px;
+	width: 24em; 
+  height: 11em;
+		
+	}
+}
